@@ -13,3 +13,4 @@ Angular Front end for my personal website
 - Implement basic node CMS for Labs Page
 - Implement node form mailer for Contact Page
 - CSS cleanup
+- Fix responsive elements for mobile
