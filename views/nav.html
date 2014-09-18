@@ -1,0 +1,41 @@
+<nav ng-class="{ navbarabout: isActive('/about'), navbarlabs: isActive('/labs'), navbarcontact: isActive('/contact')} " class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Corey J. Durthaler</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="home">Home</a></li>
+        <li ng-class="{ activeabout: isActive('/about')}"><a ui-sref="about">About Me</a></li>
+        <li ng-class="{ activelabs: isActive('/labs')}"><a ui-sref="labs">Labs</a></li>
+        <li ng-class="{ activecontact: isActive('/contact')}"><a ui-sref="contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="http://www.linkedin.com/in/" class="btn btn-social-icon btn-linkedin">
+              <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/broadmarkio" class="btn btn-social-icon btn-github">
+              <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/broadmarkio" class="btn btn-social-icon btn-github">
+              <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

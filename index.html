@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <script src="./lib/angular.min.js"></script>
+    <script src="./lib/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./app.js"></script>
+    <title>Corey J. Durthaler - Student - WebDev - Creator</title>
+  </head>
+  <body ng-app="app" >
+    
+      <div class="wrap" >
+        <div ng-hide="isActive('/home')" ui-view="nav" ng-controller="navCtrl"></div>
+        <div ui-view="landing" class="centerme"></div>
+        <div  ui-view="content"></div>
+      </div>
+
+  </body>
+</html>
