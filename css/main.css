@@ -40,6 +40,9 @@ html, body {
 }
 /*END NAVBAR*/
 
+#content {
+  height: 100%;
+}
 .wrap {
   height: 100%;
   background-color: #1d1f20;
