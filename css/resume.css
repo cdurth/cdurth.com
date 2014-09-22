@@ -7,8 +7,6 @@
 @viewport           { width: device-width; }
 
 body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
   background: #1d1f20;
 }
 blockquote {
@@ -72,7 +70,7 @@ blockquote {
   margin-bottom: 25px;
 }
 .box h2{
-  color: #227c74;
+  color: #428bca;
   font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
@@ -128,20 +126,7 @@ blockquote {
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-#awards .description:after,
-#education .description:after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  right: 0;
-  left: -16px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #eee;
-  border-width: 8px;
-  pointer-events: none;
-}
+
 #awards .description h3,
 #education .description h3{
   font-size: 1.2em;
@@ -246,12 +231,12 @@ blockquote {
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 5px 10px;
-  background: #32475c;
+  background: #428bca;
   position: relative;
   font-size: .85em;
 }
 .skill-level {
-  background-color: #227c74;
+  background-color: #428bca;
   border-radius: 4px;
   color: #fff;
   padding: 1px 8px;
@@ -344,7 +329,6 @@ a[href]:after {
 }
 
 .badge {
-  margin: 0;
   border-radius: 0;
 }
 
