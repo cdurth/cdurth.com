@@ -4,12 +4,15 @@ html, body {
   height: 100%;
 }
 /* START ACTIVE STATES*/
+.activehome {
+  background: #95A5A6;
+}
 .activeabout {
-  background: #428bca;
+  background: #52B3D9;
 }
 
 .activelabs {
-  background: #27ae60;
+  background: #2ecc71;
 }
 .activecontact {
   background: #e74c3c;
@@ -28,17 +31,41 @@ html, body {
 }
 .navbarabout {
   border-radius: 0;
-  border-bottom: 8px solid #428bca;
+  border-bottom: 8px solid #52B3D9;
 }
 .navbarlabs {
   border-radius: 0;
-  border-bottom: 8px solid #27ae60;
+  border-bottom: 8px solid #2ecc71;
 }
 .navbarcontact{
   border-radius: 0;
   border-bottom: 8px solid #e74c3c;
 }
 /*END NAVBAR*/
+
+/* START BLOG STYLING */
+.post {
+  background: #fff;
+  box-shadow: 0px 1px 1px #aaa;
+  padding: 10px 10px 0px 10px;
+}
+.post-title a {
+  color:#27ae60;
+}
+.post-footer {
+  padding-bottom: 10px;
+}
+.tags {
+  background: #1d1f20;
+}
+.btn-readmore {
+  color:#fff;
+  background: #27ae60;
+}
+.post-likes {
+  float: right;
+}
+/* END BLOG STYLING */
 
 #content {
   height: 100%;
